@@ -5,7 +5,9 @@ header{height:100px; display:flex; justify-content:space-between; font-size:30px
 .side_box>p{font-size:20px; font-weight:700; color:white; text-align:center;}
 .side_box>ul{font-size:20px; font-weight:700;}
 .side_box>ul>li>a{color:white;}
+.side_box>ul>li>a:hover{color:blue;}
 .side_box>ul>.click_sub_menu{cursor:pointer; margin-bottom:15px;}
+.side_box>ul>.click_sub_menu:hover{color:blue;}
 .side_box>ul>.click_sub_menu>.sub_menu{height:0px; overflow:hidden; transition: 0.5s;}
 .side_box>ul>.click_sub_menu>.sub_menu>li{font-size:15px; font-weight:700; color:black; margin-bottom:10px;}
 .side_box>ul>.click_sub_menu>.sub_menu>li:hover{text-decoration:underline;}
